@@ -1,0 +1,31 @@
+{
+  "name": "csv2mlmodel",
+  "version": "1.0.0",
+  "description": "Application that converts an csv file into a coreml model.",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "gulp default",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "Cristi Minica",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-fileupload": "^0.1.3",
+    "express-generator": "^4.14.0",
+    "file-saver": "^1.3.3",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-stylus": "^2.6.0",
+    "morgan": "^1.7.0",
+    "node-svm": "^2.1.8",
+    "pug": "^2.0.0-beta6",
+    "python-shell": "^0.4.0",
+    "stylus": "^0.54.5"
+  }
+}
